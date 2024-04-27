@@ -1,5 +1,3 @@
-// program for adding two floating point number
-import 'dart:io';
 void main()
 {
   double a = 24.27;
