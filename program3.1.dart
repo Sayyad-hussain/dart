@@ -14,4 +14,9 @@ void main()
   result = 2*PI*r;
 
   stdout.write("The circumference of circle is: $result");
+<<<<<<< HEAD
+=======
+
+  
+>>>>>>> 1469d02fa51e52de3316d267964b90cf8d6e6acb
 }
