@@ -8,3 +8,15 @@ void main()
     a++;
   }
 }
+
+
+
+// void main() {
+//   int g = 4;
+//   int i = 0;
+//   while (i <= g) 
+//   {
+//     print("Hello world");
+//   }
+
+// }
