@@ -10,7 +10,8 @@ void main() {
   stdout.write("Please enter your num 2: ");
   double num2 = double.parse(stdin.readLineSync()!);
 
-  switch (op) {
+  switch (op) 
+  {
     case '+':
       {
         double? sum = num1 + num2;
