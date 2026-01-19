@@ -1,23 +1,21 @@
-class AverageCalculator
+import 'dart:io';
+class Gfd
 {
-  int? a = 0;
-  int? b = 0;
-  AverageCalculator()
+  int? x, y;
+  Gfd()
   {
-    this.a = 100;
-    this.b = 100;
+    x = 100;
+    y = 100;
   }
   double avg()
   {
-    double v_average = (a!+b!) / 2;
-    return v_average;
+    double a = (x! + y!) / 2 ;
+    return a;
   }
 }
-main()
+void main()
 {
-  AverageCalculator a = new AverageCalculator();
-  
-  print(a.avg());
+  Gfd g = Gfd();
+  stdout.write("Output ");
+  stdout.write(g.avg());
 }
-
-

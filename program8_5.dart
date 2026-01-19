@@ -33,12 +33,13 @@ class Result
     stdout.write("\nMarks of 2 Subject: $marks2");
     stdout.write("\nMarks of 3 Subject: $marks3");
   }
+
   int total()
   {
     int t = marks1! + marks2! + marks3!;
     return t;
   }
-
+  
   double avg()
   {
     int t = marks1! + marks2! + marks3!;
@@ -49,6 +50,7 @@ class Result
 void main()
 {
   Result r = new Result();
+  
   r.input();
   r.show();
   
